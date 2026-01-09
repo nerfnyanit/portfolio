@@ -6,17 +6,22 @@
 Next.js / React を用いて制作した、個人ポートフォリオサイトです。  
 UI/UX・コンポーネント設計・保守性を意識し、実務を想定した構成で実装しています。
 
-## URL
-- **Portfolio**：https://portfolio-nerfnyanits-projects.vercel.app
-- **GitHub**：https://github.com/nerfnyanit/portfolio
+## Screenshot
+![Portfolio Screenshot](./public/screenshot.png)
 
-## 使用技術
-- **Framework**：Next.js（App Router）
-- **Language**：TypeScript
-- **UI**：React, Tailwind CSS
-- **State / Hooks**：Custom Hooks
-- **Tooling**：ESLint, PostCSS
-- **Deploy**：Vercel
+## URL
+- Portfolio: https://portfolio-nerfnyanits-projects.vercel.app
+- GitHub: https://github.com/nerfnyanit/portfolio
+
+## Tech Stack
+- Next.js 16 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Vercel
+
+## Environment
+- Node.js 20 or later
 
 ## 構成・特徴
 - App Router を用いたページ設計
@@ -47,5 +52,5 @@ UI/UX・コンポーネント設計・保守性を意識し、実務を想定し
 **設計力・実装力・継続的な改善姿勢** を伝えるために制作しました。
 
 ## 作者
-- GitHub：https://github.com/nerfnyanit
-- X（Twitter）：https://x.com/nerfnyanit
+- GitHub: https://github.com/nerfnyanit
+- X（Twitter）: https://x.com/nerfnyanit
