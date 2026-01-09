@@ -1,20 +1,22 @@
 # Portfolio
 
+フロントエンド設計と UI 実装を重視した Next.js ポートフォリオサイト
+
 ## 概要
 Next.js / React を用いて制作した、個人ポートフォリオサイトです。  
-UI/UX・コンポーネント設計・保守性を意識して実装しています。
+UI/UX・コンポーネント設計・保守性を意識し、実務を想定した構成で実装しています。
 
 ## URL
-- **Portfolio**：https://（VercelのURLを後で貼る）
+- **Portfolio**：https://portfolio-nerfnyanits-projects.vercel.app
 - **GitHub**：https://github.com/nerfnyanit/portfolio
 
 ## 使用技術
-- **Framework**：Next.js (App Router)
+- **Framework**：Next.js（App Router）
 - **Language**：TypeScript
 - **UI**：React, Tailwind CSS
 - **State / Hooks**：Custom Hooks
 - **Tooling**：ESLint, PostCSS
-- **Deploy**：Vercel（予定）
+- **Deploy**：Vercel
 
 ## 構成・特徴
 - App Router を用いたページ設計
@@ -27,7 +29,12 @@ UI/UX・コンポーネント設計・保守性を意識して実装していま
 - About / Skills / Projects ページ
 - スキルカード表示
 - カウンター・Todo などのサンプル機能
-- 状態管理を含むインタラクティブなUI
+- 状態管理を含むインタラクティブな UI
+
+## 工夫した点
+- 表示とロジックを分離し、保守性・可読性を重視
+- コンポーネントの責務を明確化
+- 実装意図が伝わる構成を意識
 
 ## 今後の改善予定
 - パフォーマンス最適化
@@ -41,4 +48,4 @@ UI/UX・コンポーネント設計・保守性を意識して実装していま
 
 ## 作者
 - GitHub：https://github.com/nerfnyanit
-- X（Twitter）：（必要なら記載）
+- X（Twitter）：https://x.com/nerfnyanit
