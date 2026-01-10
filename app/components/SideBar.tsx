@@ -19,7 +19,7 @@ export default function SideBar() {
       <nav className="pt-10 hidden md:block">
 
         <div className="relative mb-10">
-          <h1 className="text-5xl font-extrabold text-white relative z-10">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-white relative z-10">
             nerfnyanit
           </h1>
           <h2 className="absolute top-16 left-0 text-xl text-gray-400 tracking-widest z-0">
