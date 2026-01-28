@@ -1,6 +1,7 @@
 "use client";
 
 import { useClientFetch } from "../hooks/useClientFetch";
+import ClientFetchSkeleton from "./ClientFetchSkeleton";
 
 export default function ClientFetch() {
   const {
@@ -12,14 +13,8 @@ export default function ClientFetch() {
     count,
   } = useClientFetch();
 
-  if (loading) {
-    return (
-      <div className="border rounded-xl p-6 shadow-sm text-center">
-        <p role="status" aria-live="polite">
-          Loading...
-        </p>
-      </div>
-    );
+  if(loading) {
+    return <ClientFetchSkeleton />
   }
 
   if (error) {
